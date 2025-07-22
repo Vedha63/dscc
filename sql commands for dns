@@ -1,0 +1,29 @@
+DNS USING DATABASE
+STEPS TO EXECUTE
+1. CREATE DIRECTORY WITH NAME DNSDBASE
+2. WRITE THE 1.SERVER1,SERVER2,SERVER3,CLIENT
+PROGRAMS IN THE ABOVE MENTIONED DIRECTORY.
+3. HERE IN ALL THE 4 PROGRAMS DATABASE NAME SHOULD BE DNS
+4. PORT NUMBER SHOULD BE 3306
+5. NOW WE WILL CREATE THE DATABASE AND TABLES
+download mysql.jar put in the directory dnsdatabase.
+TO DO THIS YOU HAVE TO START XAMPP SERVER
+TO START XAMPP SERVER
+OPEN THE TERMINAL TYPE
+sudo /opt/lampp/lampp start
+then
+>mysql --host=127.0.0.1 --user=root
+now at mysql prompt
+create database with name dns command is
+create database dns;
+use dns;
+in this database create the following tables
+1.root
+2.google
+3.yahoo
+4.client
+and then insert data give in the record
+then goto your directory compile all programs with the following command
+javac *va
+the to run the command is
+java -cp .:mysql.jar Server1
